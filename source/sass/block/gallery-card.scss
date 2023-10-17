@@ -1,0 +1,29 @@
+.gallery-card__title {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+}
+
+.gallery-card__desc {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-transform: none;
+}
+
+.gallery-card__likes {
+  display: flex;
+}
+
+.gallery-card__button {
+  background-color: transparent;
+  border: none;
+}
+
+.gallery-card__icon {
+  margin-right: 10px;
+}

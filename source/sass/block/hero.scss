@@ -1,8 +1,8 @@
 .hero {
   background-image: url(/img/hero-triangle.svg), url(/img/hero-bg.jpg.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center, top;
+  background-size: 100%;
+    background-position: bottom, center;
 }
 
 .hero__wrapper {

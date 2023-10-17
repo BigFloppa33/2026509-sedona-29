@@ -4,10 +4,10 @@
 
 .advantages__title {
   font-size: 18px;
-    font-weight: 700;
-    line-height: 26px;
-    text-align: center;
-    margin: 0;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: center;
+  margin: 0;
 }
 
 .advantages__desc {
@@ -22,12 +22,25 @@
   padding: 0;
 }
 
-.advantages__item  {
+.advantages__item {
   text-align: center;
+
+  &--square {
+    background-color: #eeeeee;
+  }
+
+  &--road {
+    background-color: #eeeeee;
+  }
+
+  &--tourist {
+    background-color: #eeeeee;
+  }
 }
 
 .advantages__wrapper {
-  padding: 37px 30px 31px 30px;
+  padding: 24px 30px 24px 30px;
+
   &--triangle {
     padding-top: 65px;
     background-image: url("/img/advantages-triangle.svg");
@@ -37,10 +50,12 @@
     position: relative;
     width: 100%;
   }
+
   &--blue {
     background-color: $color-secondary;
     color: #ffffff;
   }
+
   &--gray {
     background-color: #eeeeee;
   }
@@ -49,15 +64,29 @@
 .advantages__item:nth-child(4)::after {
   content: "";
   display: block;
-  width: 100%;
+  width: 284px;
   height: 1px;
-  background-color: #D6D6D6
+  background-color: #D6D6D6;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .advantages__item:nth-child(5)::after {
   content: "";
   display: block;
-  width: 100%;
+  width: 284px;
   height: 1px;
-  background-color: #D6D6D6
+  background-color: #D6D6D6;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.advantages__number {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.advantages__image {
+  display: block;
 }

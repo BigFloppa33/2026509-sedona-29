@@ -1,0 +1,31 @@
+.modal-container__modal {
+  position: relative;
+  margin: auto;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+
+  &--invalid {
+    padding: 45px 42px 35px 41px;
+
+  }
+
+  &--valid {
+    padding: 44px 20px 20px 20px;
+
+  }
+
+
+}
+
+.modal-container__modal--success::after {
+  content: "";
+  height: 98px;
+  width: 100%;
+  background-color: #f2f2f2;
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+}
